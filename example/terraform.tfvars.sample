@@ -22,4 +22,4 @@ external_vnet_subnet_name = "default"
 # Identity
 managed_identity = "true"
 # Object ID of Azure AD group for admin cluster access
-aad_group_ids = ["{AZUREAD_GROUP_IDS}"]
+aad_group_ids = ["00000000-0000-0000-0000-000000000000"]
