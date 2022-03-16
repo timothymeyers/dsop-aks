@@ -1,6 +1,7 @@
 # General Azure settings
-cluster_name = "{CLUSTER_NAME}"
-resource_group_name = "{RESOURCE_GROUP_NAME}"
+cluster_name = "dsop-aks"
+# resource_group_name = "{RESOURCE_GROUP_NAME}"
+cloud = "AzureUSGovernmentCloud"
 location = "usgovvirginia"
 
 # AKS cluster sizing
