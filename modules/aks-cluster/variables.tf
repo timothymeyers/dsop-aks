@@ -1,3 +1,13 @@
+variable "cloud" {
+  description = "Which Azure cloud to use"
+  type        = string
+  default     = "AzureUSGovernmentCloud"
+  validation {
+    condition     = contains(["AzureUSGovernmentCloud", "AzurePublicCloud"], var.cloud)
+    error_message = "Allowed values for cloud are \"AzureUSGovernmentCloud\" or \"AzurePublicCloud\"."
+  }
+}
+
 variable "dns_prefix" {
   description = "DNS prefix"
 }
