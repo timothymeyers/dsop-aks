@@ -1,6 +1,5 @@
 # General Azure settings
 cluster_name = "dsop-aks"
-# resource_group_name = "{RESOURCE_GROUP_NAME}"
 cloud = "AzureUSGovernmentCloud"
 location = "usgovvirginia"
 
@@ -8,7 +7,7 @@ location = "usgovvirginia"
 enable_auto_scaling = true
 node_count = 2
 vm_size = "Standard_D8_v3"
-kubernetes_version = "1.20.9"
+kubernetes_version = "1.20.15"
 private_cluster_enabled = false
 
 # Networking
