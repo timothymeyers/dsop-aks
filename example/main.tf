@@ -2,7 +2,7 @@
 
 resource "azurerm_resource_group" "aks" {
   count    = var.use_external_vnet ? 0 : 1
-  name     = var.resource_group_name
+  name     = "${var.cluster_name}-rg"
   location = var.location
 }
 
