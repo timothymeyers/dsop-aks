@@ -6,6 +6,7 @@ location = "usgovvirginia"
 # AKS cluster sizing
 enable_auto_scaling = true
 node_count = 2
+max_count = 2
 vm_size = "Standard_D8_v3"
 kubernetes_version = "1.20.15"
 private_cluster_enabled = false
